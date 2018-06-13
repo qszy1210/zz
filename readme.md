@@ -5,4 +5,3 @@ function getFirstDayOfWeek(date) {
     const dd2 = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1 - day + 5);
     return (dd.getMonth() + 1) + "/" + dd.getDate() + "-" + (dd2.getMonth() + 1) + "/" + dd2.getDate();
 };
-test1
